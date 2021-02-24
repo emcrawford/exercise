@@ -9,8 +9,8 @@
 ## 
 ## Use `git fetch` to simply replicate remote changes to your local branch. This will succeed if a tracking branch for a remote repository is connected to it.
 ## 
-## Use `git push` to send current changes to a remote repository. Assuming you have configured a connection to a tracking branch for a remote repository, current changes in your branch are pushed to the remote branch.
-## Think of a push as, "Make the remote branch resemble my local branch." Your push will fail if the remote branch has diverged from your local branch. If successful, all the commits in the remote branch are replicated in your local branch.
+## Use `git push` to send current changes to a remote repository. If a tracking branch for a remote repository has been specified, current changes in your branch are pushed to the remote branch.
+## Think of a push as, "Make the remote branch resemble my local branch." Your push will fail if the remote branch has diverged from your local branch.
 ## 
 ## Use `git pull` to do two things:
 ##  - 
